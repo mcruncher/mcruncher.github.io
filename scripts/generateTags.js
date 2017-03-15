@@ -1,10 +1,10 @@
 /**
  * Created by michelleashwini on 13/03/2017.
  */
-    var songTitle = document.getElementById('userInput');
+    var lyrics = document.getElementById('userInput');
 
     function printSong() {
-        var input = songTitle.value;
+        var input = lyrics.value;
         var lines = input.split('\n');
         var generatedText ="";
         for(var i = 0;i < lines.length; i++){
