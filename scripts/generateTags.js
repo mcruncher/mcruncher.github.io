@@ -5,5 +5,15 @@
 
     function printSong() {
         var input = songTitle.value;
-        document.getElementById('output').value = "{y}" + input + "{/y}";
+        var lines = input.split('\n');
+        var generatedText ="";
+        for(var i = 0;i < lines.length; i++){
+            if(lines[i].match(/[A-z]/) != null | lines[i].match(/[0-9]{2}/) != null) {
+                generatedText = generatedText + lines[i] + '\n';
+            }else{
+                generatedText = generatedText + "{y}" + lines[i] + "{/y}" + '\n';
+            }
+
+        }
+        document.getElementById('output').value = generatedText;
     }
