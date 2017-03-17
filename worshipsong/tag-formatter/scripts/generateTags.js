@@ -3,7 +3,7 @@
  */
 var lyrics = document.getElementById('userInput');
 
-function printSong() {
+function generateSongWithTags() {
     var input = lyrics.value;
     var lines = input.split('\n');
     var generatedText ="";
