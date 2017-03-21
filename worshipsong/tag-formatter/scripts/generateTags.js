@@ -20,3 +20,8 @@ function generateSongWithTags() {
     }
     document.getElementById('output').value = generatedText;
 }
+
+function clearText() {
+    document.getElementById('userInput').value = "";
+    document.getElementById('output').value = "";
+}
