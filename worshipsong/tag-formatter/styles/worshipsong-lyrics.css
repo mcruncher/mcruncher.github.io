@@ -7,3 +7,12 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.ws-row{
+    margin: 10px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+}

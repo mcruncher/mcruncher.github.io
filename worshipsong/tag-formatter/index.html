@@ -16,7 +16,12 @@
             <textarea id="userInput" class="form-control" rows="35" placeholder="Enter song lyrics here"></textarea>
         </div>
         <div class="col-xs-2" style="text-align: center">
-            <button type="button" class="btn btn-success" onclick="generateSongWithTags()">Generate tags</button>
+            <div class="row ws-row">
+                <button type="button" class="btn btn-success" onclick="generateSongWithTags()">Generate tags</button>
+            </div>
+            <div class="row ws-row">
+                <button type="reset" class="btn btn-danger" onclick="clearText()">Clear text</button>
+            </div>
         </div>
         <div class="col-xs-5">
             <textarea disabled id="output" class="form-control" rows="35" placeholder="Generated Song"></textarea>
