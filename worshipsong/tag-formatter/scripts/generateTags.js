@@ -8,7 +8,7 @@ function generateSongWithTags() {
     var lines = input.split('\n');
     var generatedText ="";
     for(var i = 0;i < lines.length; i++){
-        var verseNumber = lines[i].match(/^[1-9]/);
+        var verseNumber = lines[i].match(/^\d+/);
         if (verseNumber != null) {
             generatedText = generatedText + "---[Verse:" + verseNumber + "]---" + '\n';
         }
