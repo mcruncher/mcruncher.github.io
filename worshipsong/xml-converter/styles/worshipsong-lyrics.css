@@ -1,0 +1,22 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+.ws-header{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.ws-row{
+    margin: 10px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+}
+
+.ws-songDetails{
+    margin-bottom: 15px;
+}
