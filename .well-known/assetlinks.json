@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "org.worshipsongs",
+    "sha256_cert_fingerprints":
+    ["D7:8A:F5:ED:4D:ED:86:66:7D:BE:82:DF:96:34:15:8C:F8:8D:DE:B5:5A:20:A2:F5:4B:B4:AE:D2:D3:22:01:9E"]
+  }
+}]
