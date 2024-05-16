@@ -20,7 +20,91 @@ footer
 .main-header
 {
 	height: 100px; 	
+}:root 
+{
+    --bs-body-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+header
+{
+    margin-bottom: 7rem;
+}
+body
+{
+    margin-left: 30px;
+}
+
+footer
+{
+    line-height: 0.2;
+}
+
+.main-header
+{
+	height: 100px; 	
+}
+
+.main-header-text
+{
+    text-align: center;
+    text-justify: distribute;
+    font-size: 7rem;
+    font-family: var(--bs-body-font-family);
+    font-weight: normal;
+    color: black;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 60px;   
+}
+
+
+.bullet-text
+{
+    font-family: var(--bs-body-font-family);
+    font-weight: 450;
+    color: black;
+    position: static;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 60px; 
+    flex: 0.5;  
+    line-height: 1.1;
+    padding: 0px;
+    
+}
+
+.description-text
+{
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 15px;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: var(--bs-body-font-family);
+    line-height: 1.2;
+    padding: 0;
+    
+}
+
+
+.container-fluid
+{
+    margin-bottom: 60px;
+    padding-left: 20px;
+}
+
+.img-fluid
+{
+    border-radius: 50px;
+}
+
+html
+{
+    background-color: beige;
+}
+
 
 .main-header-text
 {
