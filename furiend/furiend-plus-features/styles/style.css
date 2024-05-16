@@ -1,6 +1,6 @@
 :root 
 {
-    --bs-body-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --bs-body-font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header
@@ -10,28 +10,7 @@ header
 body
 {
     margin-left: 30px;
-}
-
-footer
-{
-    line-height: 0.2;
-}
-
-.main-header
-{
-	height: 100px; 	
-}:root 
-{
-    --bs-body-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-header
-{
-    margin-bottom: 7rem;
-}
-body
-{
-    margin-left: 30px;
+    margin-bottom: 0px;
 }
 
 footer
@@ -48,13 +27,13 @@ footer
 {
     text-align: center;
     text-justify: distribute;
-    font-size: 7rem;
+    font-size: 5.5rem;
     font-family: var(--bs-body-font-family);
     font-weight: normal;
     color: black;
     margin-top: 25px;
     margin-left: 30px;
-    margin-bottom: 60px;   
+    margin-bottom: 110px;   
 }
 
 
@@ -67,7 +46,7 @@ footer
     margin-left: 15px;
     margin-right: 10px;
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-size: 60px; 
     flex: 0.5;  
     line-height: 1.1;
@@ -80,73 +59,14 @@ footer
     margin-top: 5px;
     margin-right: 10px;
     margin-left: 15px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
     font-family: var(--bs-body-font-family);
-    line-height: 1.2;
-    padding: 0;
-    
-}
-
-
-.container-fluid
-{
-    margin-bottom: 60px;
-    padding-left: 20px;
-}
-
-.img-fluid
-{
-    border-radius: 50px;
-}
-
-html
-{
-    background-color: beige;
-}
-
-
-.main-header-text
-{
-    text-align: center;
-    text-justify: distribute;
-    font-size: 7rem;
-    font-family: var(--bs-body-font-family);
-    font-weight: normal;
-    color: black;
-    margin-top: 25px;
-    margin-left: 30px;
-    margin-bottom: 60px;   
-}
-
-
-.bullet-text
-{
-    font-family: var(--bs-body-font-family);
-    font-weight: 450;
-    color: black;
-    position: static;
-    margin-left: 15px;
-    margin-right: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    font-size: 2.6rem; 
-    flex: 0.5;  
     line-height: 1.1;
-    padding: 0px;
-    /* margin: 0; */
-}
-
-.description-text
-{
-    margin-top: 5px;
-    margin-right: 10px;
-    margin-left: 15px;
-    font-size: 1.9rem;
-    font-weight: 350;
-    font-family: var(--bs-body-font-family);
-    line-height: 1.2;
     padding: 0;
+    letter-spacing: 0.1px;
+    
+    
     
 }
 
@@ -154,15 +74,33 @@ html
 .container-fluid
 {
     margin-bottom: 60px;
+    margin-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 110px;
+    border-bottom: 1px ridge;
+    border-color: gray;
+}
+
+
+.container-fluid-first
+{
+    margin-bottom: 20px;
+    margin-top: 60px;
     padding-left: 20px;
+    padding-bottom: 70px;
 }
 
 .img-fluid
 {
-    border-radius: 50px;
+    border-radius: 80px;
+    border: 1px solid gray;
 }
 
-html
+.img-fluid-first
 {
-    background-color: beige;
+    border-radius: 80px;
+    margin-bottom: 10px;
 }
+
+
+
