@@ -65,7 +65,7 @@ html {
     margin-top: 3.75rem; 
     padding-left: 3.75rem; 
     padding-bottom: 6.875rem; 
-    border-bottom: 0.036rem solid; 
+    border-bottom: 0.03rem solid; 
     border-color: gray;
 }
 
@@ -77,18 +77,23 @@ html {
 }
 
 .img-fluid {
-    border-radius: 5rem; 
+    border-radius: 2.65rem; 
     border: 0.0625rem solid gray; 
 }
 
 .img-fluid-first {
-    border-radius: 5rem; 
+    border-radius: 2rem; 
     margin-bottom: 0.625rem; 
 }
 
 
-@media (max-height: 930px) 
-{    
+@media (max-height: 3000px) 
+{ 
+    .container-fluid-first
+    {
+        margin-bottom: 0.5rem;
+        padding-bottom: 0.5rem;
+    }   
     .main-header-text 
     {
         font-size: 3rem;
@@ -96,7 +101,7 @@ html {
     
     .bullet-text 
     {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
     }
 
     .description-text 
@@ -106,7 +111,7 @@ html {
 } 
 
 
-@media (min-height: 930px) 
+@media (min-height: 1090px) 
 {
     
     .main-header-text
