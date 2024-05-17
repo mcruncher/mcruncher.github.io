@@ -12,7 +12,8 @@ body {
 }
 
 footer {
-    line-height: 0.2; 
+    line-height: 0.2;
+    padding-bottom: 1rem; 
 }
 
 html {
