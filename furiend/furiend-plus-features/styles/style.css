@@ -18,6 +18,8 @@ footer {
 
 html {
     font-size: 20px; 
+    background-color: white;
+    height: 100%;
 }
 
 .main-header {
