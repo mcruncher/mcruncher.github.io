@@ -5,6 +5,10 @@
         {
             "appID": "7W474V4EGY.com.mcruncher.worshipsongs",
             "paths": [ "*" ]
+        },
+        {
+            "appID": "7W474V4EGY.com.mcruncher.furiend",
+            "paths": [ "*" ]
         }
     ]
 }
